@@ -1,0 +1,18 @@
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+
+[[redirects]]
+  from = "/solusi-mata-minus-vio-google-jbk"
+  to = "/solusi-mata-minus-vio-google-jbk/"
+  status = 301
+
+[[redirects]]
+  from = "/terapi-mata-minus-ortho-k-jabodetabek-ard"
+  to = "/terapi-mata-minus-ortho-k-jabodetabek-ard/"
+  status = 301

@@ -1,0 +1,23 @@
+# Dependencies and local tooling
+node_modules/
+.npm-cache/
+package.json
+package-lock.json
+
+# Local source/reference files not needed for deployment
+link landing page.txt
+VIO_Brand Guideline Final.pdf
+docs/
+scripts/
+**/research/
+**/reference/
+**/qa/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Netlify local state
+.netlify/
