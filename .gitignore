@@ -1,6 +1,7 @@
 # Dependencies and local tooling
 node_modules/
 .npm-cache/
+*.zip
 package.json
 package-lock.json
 
