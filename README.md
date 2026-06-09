@@ -1,6 +1,6 @@
 # Klon Website
 
-Static lightweight deployment for two VIO Optical landing pages.
+Static high-fidelity clone deployment for two VIO Optical landing pages.
 
 ## Pages
 
@@ -9,21 +9,18 @@ Static lightweight deployment for two VIO Optical landing pages.
 
 ## Structure
 
-Netlify publishes only `public/`. Each page contains:
+Netlify publishes from the repository root. The deploy output is stored directly in:
 
-- `index.html`
-- `styles.css`
-- `app.js`
-- `assets/images/*.webp`
-
-The heavy Leadpages export assets, local font mirrors, and local analytics mirrors are not part of the deploy output.
+- `ortho-k/index.html`
+- `ortho-k/assets/`
+- `solusi-mata-minus/index.html`
+- `solusi-mata-minus/assets/`
 
 ## Local Preview
 
-Run a static server from `public/`:
+Run a static server from the repository root:
 
 ```bash
-cd public
 python -m http.server 4175
 ```
 
@@ -36,7 +33,7 @@ http://localhost:4175/solusi-mata-minus/
 
 ## Netlify
 
-Netlify publish directory: `public`.
+Netlify publish directory: repository root (`.`).
 
 Custom domain rewrites are configured in `netlify.toml`:
 
