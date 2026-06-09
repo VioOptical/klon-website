@@ -1,5 +1,5 @@
 [build]
-  publish = "."
+  publish = "public"
   command = ""
 
 [[headers]]
@@ -8,21 +8,55 @@
     X-Content-Type-Options = "nosniff"
 
 [[headers]]
-  for = "/solusi-mata-minus-vio-google-jbk/assets/*"
+  for = "/solusi-mata-minus/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-  for = "/terapi-mata-minus-ortho-k-jabodetabek-ard/assets/*"
+  for = "/ortho-k/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[redirects]]
-  from = "/solusi-mata-minus-vio-google-jbk"
-  to = "/solusi-mata-minus-vio-google-jbk/"
+  from = "https://ortho-k.viooptical.com/*"
+  to = "/ortho-k/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "http://ortho-k.viooptical.com/*"
+  to = "/ortho-k/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://solusi-mata-minus.viooptical.com/*"
+  to = "/solusi-mata-minus/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "http://solusi-mata-minus.viooptical.com/*"
+  to = "/solusi-mata-minus/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/solusi-mata-minus-vio-google-jbk/*"
+  to = "/solusi-mata-minus/:splat"
   status = 301
 
 [[redirects]]
-  from = "/terapi-mata-minus-ortho-k-jabodetabek-ard"
-  to = "/terapi-mata-minus-ortho-k-jabodetabek-ard/"
+  from = "/terapi-mata-minus-ortho-k-jabodetabek-ard/*"
+  to = "/ortho-k/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/solusi-mata-minus"
+  to = "/solusi-mata-minus/"
+  status = 301
+
+[[redirects]]
+  from = "/ortho-k"
+  to = "/ortho-k/"
   status = 301
