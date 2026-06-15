@@ -4,6 +4,7 @@
        url(./WyqqFgBBkfMgVM3g9VaQT4/xjusfg3HemkZNzMjKXigMe-6d003d5d.woff) format('woff');
   font-weight: 400;
   font-style: regular;
+  font-display: swap;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
        url(./WyqqFgBBkfMgVM3g9VaQT4/r4iFBuBVYyt4AJpSYxKFgm-6d003d5d.woff) format('woff');
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -20,5 +22,6 @@
        url(./WyqqFgBBkfMgVM3g9VaQT4/c8ApgwtVBJGdnwZGQTAetm-6d003d5d.woff) format('woff');
   font-weight: 700;
   font-style: regular;
+  font-display: swap;
 }
 

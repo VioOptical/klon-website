@@ -13,6 +13,7 @@ scripts/
 **/research/
 **/reference/
 **/qa/
+*.pdf
 
 # OS/editor noise
 .DS_Store
